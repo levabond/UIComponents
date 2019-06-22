@@ -1,0 +1,16 @@
+//  
+//  HomeView.swift
+//  UIComponents
+//
+//  Created by Лев Бондаренко on 22/06/2019.
+//  Copyright © 2019 Лев Бондаренко. All rights reserved.
+//
+
+import UIKit
+
+protocol HomeViewInput: class {}
+
+final class HomeView: UIView {}
+
+// MARK: - HomeViewInput
+extension HomeView: HomeViewInput {}
