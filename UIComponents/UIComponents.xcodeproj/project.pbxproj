@@ -19,6 +19,7 @@
 		25A00C4322BC9EEA007055B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A00C4222BC9EEA007055B9 /* ViewController.swift */; };
 		25A00C4822BC9EEC007055B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25A00C4722BC9EEC007055B9 /* Assets.xcassets */; };
 		25A00C4B22BC9EEC007055B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25A00C4922BC9EEC007055B9 /* LaunchScreen.storyboard */; };
+		25F74BA922BFD7BA00DB890E /* RXKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F74BA822BFD7BA00DB890E /* RXKeyboard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		25A00C4722BC9EEC007055B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25A00C4A22BC9EEC007055B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25A00C4C22BC9EEC007055B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25F74BA822BFD7BA00DB890E /* RXKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXKeyboard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 		25A00C3F22BC9EEA007055B9 /* UIComponents */ = {
 			isa = PBXGroup;
 			children = (
+				25F74BA722BFD7A900DB890E /* Helpers */,
 				25A00C5222BC9F05007055B9 /* HomeScene */,
 				25A00C4022BC9EEA007055B9 /* AppDelegate.swift */,
 				25A00C4222BC9EEA007055B9 /* ViewController.swift */,
@@ -91,6 +94,14 @@
 				25188AF422BE116100B7A9C6 /* HomeModuleConfigurator.swift */,
 			);
 			path = HomeScene;
+			sourceTree = "<group>";
+		};
+		25F74BA722BFD7A900DB890E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				25F74BA822BFD7BA00DB890E /* RXKeyboard.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,6 +180,7 @@
 				25188AFC22BE116100B7A9C6 /* HomeModuleConfigurator.swift in Sources */,
 				25188AF722BE116100B7A9C6 /* HomeModuleInitializer.swift in Sources */,
 				25188AFA22BE116100B7A9C6 /* HomeModel.swift in Sources */,
+				25F74BA922BFD7BA00DB890E /* RXKeyboard.swift in Sources */,
 				25A00C4322BC9EEA007055B9 /* ViewController.swift in Sources */,
 				25A00C4122BC9EEA007055B9 /* AppDelegate.swift in Sources */,
 				25188AFB22BE116100B7A9C6 /* HomeModelInput.swift in Sources */,
