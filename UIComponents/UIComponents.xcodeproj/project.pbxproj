@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,6 +19,10 @@
 		25A00C4322BC9EEA007055B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A00C4222BC9EEA007055B9 /* ViewController.swift */; };
 		25A00C4822BC9EEC007055B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25A00C4722BC9EEC007055B9 /* Assets.xcassets */; };
 		25A00C4B22BC9EEC007055B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25A00C4922BC9EEC007055B9 /* LaunchScreen.storyboard */; };
+		25BB0A4B22C246A0004668E5 /* Carousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BB0A4A22C246A0004668E5 /* Carousel.swift */; };
+		25BB0A4D22C246E8004668E5 /* CarouselCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BB0A4C22C246E8004668E5 /* CarouselCell.swift */; };
+		25BB0A4F22C24708004668E5 /* CarouselCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BB0A4E22C24708004668E5 /* CarouselCollectionView.swift */; };
+		25BB0A5122C24721004668E5 /* CarouselCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BB0A5022C24720004668E5 /* CarouselCounter.swift */; };
 		25F74BA922BFD7BA00DB890E /* RXKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F74BA822BFD7BA00DB890E /* RXKeyboard.swift */; };
 		A5AD86CA89EEFB7A8C6755BE /* Pods_UIComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1E178D0F21F0D4FABE7024 /* Pods_UIComponents.framework */; };
 /* End PBXBuildFile section */
@@ -38,6 +42,10 @@
 		25A00C4722BC9EEC007055B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25A00C4A22BC9EEC007055B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25A00C4C22BC9EEC007055B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25BB0A4A22C246A0004668E5 /* Carousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carousel.swift; sourceTree = "<group>"; };
+		25BB0A4C22C246E8004668E5 /* CarouselCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselCell.swift; sourceTree = "<group>"; };
+		25BB0A4E22C24708004668E5 /* CarouselCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselCollectionView.swift; sourceTree = "<group>"; };
+		25BB0A5022C24720004668E5 /* CarouselCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselCounter.swift; sourceTree = "<group>"; };
 		25F74BA822BFD7BA00DB890E /* RXKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXKeyboard.swift; sourceTree = "<group>"; };
 		5B1E178D0F21F0D4FABE7024 /* Pods_UIComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		754E1CE85E68807509B5C5E3 /* Pods-UIComponents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIComponents.release.xcconfig"; path = "Target Support Files/Pods-UIComponents/Pods-UIComponents.release.xcconfig"; sourceTree = "<group>"; };
@@ -77,6 +85,8 @@
 		25A00C3F22BC9EEA007055B9 /* UIComponents */ = {
 			isa = PBXGroup;
 			children = (
+				25BB0A4822C24689004668E5 /* UIElements */,
+				25BB0A4622C24546004668E5 /* Models */,
 				25F74BA722BFD7A900DB890E /* Helpers */,
 				25A00C5222BC9F05007055B9 /* HomeScene */,
 				25A00C4022BC9EEA007055B9 /* AppDelegate.swift */,
@@ -103,6 +113,40 @@
 			path = HomeScene;
 			sourceTree = "<group>";
 		};
+		25BB0A4622C24546004668E5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				25BB0A4722C2455C004668E5 /* API */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		25BB0A4722C2455C004668E5 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		25BB0A4822C24689004668E5 /* UIElements */ = {
+			isa = PBXGroup;
+			children = (
+				25BB0A4922C24695004668E5 /* Carousel */,
+			);
+			path = UIElements;
+			sourceTree = "<group>";
+		};
+		25BB0A4922C24695004668E5 /* Carousel */ = {
+			isa = PBXGroup;
+			children = (
+				25BB0A4A22C246A0004668E5 /* Carousel.swift */,
+				25BB0A4C22C246E8004668E5 /* CarouselCell.swift */,
+				25BB0A4E22C24708004668E5 /* CarouselCollectionView.swift */,
+				25BB0A5022C24720004668E5 /* CarouselCounter.swift */,
+			);
+			path = Carousel;
+			sourceTree = "<group>";
+		};
 		25F74BA722BFD7A900DB890E /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -117,7 +161,6 @@
 				EE4872CBEC6C858AEB910DDE /* Pods-UIComponents.debug.xcconfig */,
 				754E1CE85E68807509B5C5E3 /* Pods-UIComponents.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -245,7 +288,9 @@
 			files = (
 				25188AF622BE116100B7A9C6 /* HomeViewControllerInput.swift in Sources */,
 				25188AF922BE116100B7A9C6 /* HomeView.swift in Sources */,
+				25BB0A4F22C24708004668E5 /* CarouselCollectionView.swift in Sources */,
 				25188AF522BE116100B7A9C6 /* HomeModelOutput.swift in Sources */,
+				25BB0A4B22C246A0004668E5 /* Carousel.swift in Sources */,
 				25188AFC22BE116100B7A9C6 /* HomeModuleConfigurator.swift in Sources */,
 				25188AF722BE116100B7A9C6 /* HomeModuleInitializer.swift in Sources */,
 				25188AFA22BE116100B7A9C6 /* HomeModel.swift in Sources */,
@@ -253,6 +298,8 @@
 				25A00C4322BC9EEA007055B9 /* ViewController.swift in Sources */,
 				25A00C4122BC9EEA007055B9 /* AppDelegate.swift in Sources */,
 				25188AFB22BE116100B7A9C6 /* HomeModelInput.swift in Sources */,
+				25BB0A4D22C246E8004668E5 /* CarouselCell.swift in Sources */,
+				25BB0A5122C24721004668E5 /* CarouselCounter.swift in Sources */,
 				25188AF822BE116100B7A9C6 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
