@@ -6,6 +6,41 @@
 //  Copyright © 2019 Лев Бондаренко. All rights reserved.
 //
 
+import RxSwift
+import RxCocoa
+import Foundation
+
+public protocol RxKeyboardType {
+  var frame: Driver<CGRect> { get }
+  var visibleHeight: Driver<CGFloat> { get }
+  var willShowVisibleHeight: Driver<CGFloat> { get }
+  var isHidden: Driver<Bool> { get }
+}
+
+extension RxKeyboard: UIGestureRecognizerDelegate {
+  public func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer,
+                                shouldReceive touch: UITouch
+    ) -> Bool {
+    let point = touch.location(in: gestureRecognizer.view)
+    var view = gestureRecognizer.view?.hitTest(point, with: nil)
+    while let candidate = view {
+      if let scrollView = candidate as? UIScrollView,
+        case .interactive = scrollView.keyboardDismissMode {
+        return true
+      }
+      view = candidate.superview
+    }
+    return false
+  }
+  
+  public func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer,
+                                shouldRecognizeSimultaneouslyWith otherGestureRecognizer: UIGestureRecognizer
+    ) -> Bool {
+    return gestureRecognizer === self.panRecognizer
+  }
+}
+
+
 /// RxKeyboard provides a reactive way of observing keyboard frame changes.
 public class RxKeyboard: NSObject, RxKeyboardType {
   
