@@ -23,6 +23,7 @@
 		25BB0A4D22C246E8004668E5 /* CarouselCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BB0A4C22C246E8004668E5 /* CarouselCell.swift */; };
 		25BB0A4F22C24708004668E5 /* CarouselCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BB0A4E22C24708004668E5 /* CarouselCollectionView.swift */; };
 		25BB0A5122C24721004668E5 /* CarouselCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BB0A5022C24720004668E5 /* CarouselCounter.swift */; };
+		25C49D5622C4112600D9E34F /* UISwitcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C49D5522C4112600D9E34F /* UISwitcher.swift */; };
 		25F74BA922BFD7BA00DB890E /* RXKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F74BA822BFD7BA00DB890E /* RXKeyboard.swift */; };
 		A5AD86CA89EEFB7A8C6755BE /* Pods_UIComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1E178D0F21F0D4FABE7024 /* Pods_UIComponents.framework */; };
 /* End PBXBuildFile section */
@@ -46,6 +47,7 @@
 		25BB0A4C22C246E8004668E5 /* CarouselCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselCell.swift; sourceTree = "<group>"; };
 		25BB0A4E22C24708004668E5 /* CarouselCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselCollectionView.swift; sourceTree = "<group>"; };
 		25BB0A5022C24720004668E5 /* CarouselCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselCounter.swift; sourceTree = "<group>"; };
+		25C49D5522C4112600D9E34F /* UISwitcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISwitcher.swift; sourceTree = "<group>"; };
 		25F74BA822BFD7BA00DB890E /* RXKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXKeyboard.swift; sourceTree = "<group>"; };
 		5B1E178D0F21F0D4FABE7024 /* Pods_UIComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		754E1CE85E68807509B5C5E3 /* Pods-UIComponents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIComponents.release.xcconfig"; path = "Target Support Files/Pods-UIComponents/Pods-UIComponents.release.xcconfig"; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				25BB0A4922C24695004668E5 /* Carousel */,
+				25C49D5522C4112600D9E34F /* UISwitcher.swift */,
 			);
 			path = UIElements;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 			files = (
 				25188AF622BE116100B7A9C6 /* HomeViewControllerInput.swift in Sources */,
 				25188AF922BE116100B7A9C6 /* HomeView.swift in Sources */,
+				25C49D5622C4112600D9E34F /* UISwitcher.swift in Sources */,
 				25BB0A4F22C24708004668E5 /* CarouselCollectionView.swift in Sources */,
 				25188AF522BE116100B7A9C6 /* HomeModelOutput.swift in Sources */,
 				25BB0A4B22C246A0004668E5 /* Carousel.swift in Sources */,
