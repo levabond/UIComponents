@@ -115,33 +115,33 @@ class UISwitcher: UIView {
   }
   
   private func setupConstraints() {
-    self.switcher.snp.makeConstraints { (make) in
+    switcher.snp.makeConstraints { (make) in
       make.height.equalTo(appearance.switcherHeight)
       make.width.equalTo(appearance.switcherWidth)
       make.centerY.equalToSuperview()
       make.right.equalToSuperview()
     }
     
-    self.label.snp.makeConstraints { (make) in
+    label.snp.makeConstraints { (make) in
       make.centerY.equalToSuperview()
       make.left.equalToSuperview()
-      make.right.equalTo(self.switcher.snp.left).offset(-appearance.spaceBetweenElements)
+      make.right.equalTo(switcher.snp.left).offset(-appearance.spaceBetweenElements)
     }
     
-    self.snp.makeConstraints { make in
-      make.bottom.equalTo(self.switcher.snp.bottom).offset(margins)
-      make.top.equalTo(self.switcher.snp.top).offset(-margins)
+    snp.makeConstraints { make in
+      make.bottom.equalTo(switcher.snp.bottom).offset(margins)
+      make.top.equalTo(switcher.snp.top).offset(-margins)
     }
   }
   
   @objc public func hideWithReset() {
-    self.setIsOn(false)
-    self.isHidden = true
+    setIsOn(false)
+    isHidden = true
   }
   
   @objc public func showWithReset() {
-    self.setIsOn(false)
-    self.isHidden = false
+    setIsOn(false)
+    isHidden = false
   }
   
   private func updateBorders() {
