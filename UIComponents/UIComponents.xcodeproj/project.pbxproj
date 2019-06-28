@@ -25,6 +25,12 @@
 		25BB0A5122C24721004668E5 /* CarouselCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BB0A5022C24720004668E5 /* CarouselCounter.swift */; };
 		25C49D5622C4112600D9E34F /* UISwitcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C49D5522C4112600D9E34F /* UISwitcher.swift */; };
 		25F74BA922BFD7BA00DB890E /* RXKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F74BA822BFD7BA00DB890E /* RXKeyboard.swift */; };
+		25FB64B322C6404A00AB0D47 /* VIPERHomeScenePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FB64AD22C6404A00AB0D47 /* VIPERHomeScenePresenter.swift */; };
+		25FB64B422C6404A00AB0D47 /* VIPERHomeSceneRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FB64AE22C6404A00AB0D47 /* VIPERHomeSceneRouter.swift */; };
+		25FB64B522C6404A00AB0D47 /* VIPERHomeSceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FB64AF22C6404A00AB0D47 /* VIPERHomeSceneViewController.swift */; };
+		25FB64B622C6404A00AB0D47 /* VIPERHomeSceneProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FB64B022C6404A00AB0D47 /* VIPERHomeSceneProtocols.swift */; };
+		25FB64B722C6404A00AB0D47 /* VIPERHomeSceneInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FB64B122C6404A00AB0D47 /* VIPERHomeSceneInteractor.swift */; };
+		25FB64B822C6404A00AB0D47 /* VIPERHomeSceneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25FB64B222C6404A00AB0D47 /* VIPERHomeSceneViewController.xib */; };
 		A5AD86CA89EEFB7A8C6755BE /* Pods_UIComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1E178D0F21F0D4FABE7024 /* Pods_UIComponents.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +55,12 @@
 		25BB0A5022C24720004668E5 /* CarouselCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselCounter.swift; sourceTree = "<group>"; };
 		25C49D5522C4112600D9E34F /* UISwitcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISwitcher.swift; sourceTree = "<group>"; };
 		25F74BA822BFD7BA00DB890E /* RXKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXKeyboard.swift; sourceTree = "<group>"; };
+		25FB64AD22C6404A00AB0D47 /* VIPERHomeScenePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPERHomeScenePresenter.swift; sourceTree = "<group>"; };
+		25FB64AE22C6404A00AB0D47 /* VIPERHomeSceneRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPERHomeSceneRouter.swift; sourceTree = "<group>"; };
+		25FB64AF22C6404A00AB0D47 /* VIPERHomeSceneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPERHomeSceneViewController.swift; sourceTree = "<group>"; };
+		25FB64B022C6404A00AB0D47 /* VIPERHomeSceneProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPERHomeSceneProtocols.swift; sourceTree = "<group>"; };
+		25FB64B122C6404A00AB0D47 /* VIPERHomeSceneInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPERHomeSceneInteractor.swift; sourceTree = "<group>"; };
+		25FB64B222C6404A00AB0D47 /* VIPERHomeSceneViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VIPERHomeSceneViewController.xib; sourceTree = "<group>"; };
 		5B1E178D0F21F0D4FABE7024 /* Pods_UIComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		754E1CE85E68807509B5C5E3 /* Pods-UIComponents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIComponents.release.xcconfig"; path = "Target Support Files/Pods-UIComponents/Pods-UIComponents.release.xcconfig"; sourceTree = "<group>"; };
 		EE4872CBEC6C858AEB910DDE /* Pods-UIComponents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIComponents.debug.xcconfig"; path = "Target Support Files/Pods-UIComponents/Pods-UIComponents.debug.xcconfig"; sourceTree = "<group>"; };
@@ -87,6 +99,7 @@
 		25A00C3F22BC9EEA007055B9 /* UIComponents */ = {
 			isa = PBXGroup;
 			children = (
+				25FB64AA22C6400000AB0D47 /* Scenes */,
 				25BB0A4822C24689004668E5 /* UIElements */,
 				25BB0A4622C24546004668E5 /* Models */,
 				25F74BA722BFD7A900DB890E /* Helpers */,
@@ -156,6 +169,35 @@
 				25F74BA822BFD7BA00DB890E /* RXKeyboard.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		25FB64AA22C6400000AB0D47 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				25FB64AB22C6401100AB0D47 /* VIPER */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		25FB64AB22C6401100AB0D47 /* VIPER */ = {
+			isa = PBXGroup;
+			children = (
+				25FB64AC22C6401800AB0D47 /* Home */,
+			);
+			path = VIPER;
+			sourceTree = "<group>";
+		};
+		25FB64AC22C6401800AB0D47 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				25FB64AD22C6404A00AB0D47 /* VIPERHomeScenePresenter.swift */,
+				25FB64AE22C6404A00AB0D47 /* VIPERHomeSceneRouter.swift */,
+				25FB64AF22C6404A00AB0D47 /* VIPERHomeSceneViewController.swift */,
+				25FB64B022C6404A00AB0D47 /* VIPERHomeSceneProtocols.swift */,
+				25FB64B122C6404A00AB0D47 /* VIPERHomeSceneInteractor.swift */,
+				25FB64B222C6404A00AB0D47 /* VIPERHomeSceneViewController.xib */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 		517F0339F1E703FE9E95EA32 /* Pods */ = {
@@ -237,6 +279,7 @@
 			files = (
 				25A00C4B22BC9EEC007055B9 /* LaunchScreen.storyboard in Resources */,
 				25A00C4822BC9EEC007055B9 /* Assets.xcassets in Resources */,
+				25FB64B822C6404A00AB0D47 /* VIPERHomeSceneViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,17 +334,22 @@
 			files = (
 				25188AF622BE116100B7A9C6 /* HomeViewControllerInput.swift in Sources */,
 				25188AF922BE116100B7A9C6 /* HomeView.swift in Sources */,
+				25FB64B622C6404A00AB0D47 /* VIPERHomeSceneProtocols.swift in Sources */,
 				25C49D5622C4112600D9E34F /* UISwitcher.swift in Sources */,
 				25BB0A4F22C24708004668E5 /* CarouselCollectionView.swift in Sources */,
+				25FB64B322C6404A00AB0D47 /* VIPERHomeScenePresenter.swift in Sources */,
 				25188AF522BE116100B7A9C6 /* HomeModelOutput.swift in Sources */,
 				25BB0A4B22C246A0004668E5 /* Carousel.swift in Sources */,
+				25FB64B722C6404A00AB0D47 /* VIPERHomeSceneInteractor.swift in Sources */,
 				25188AFC22BE116100B7A9C6 /* HomeModuleConfigurator.swift in Sources */,
 				25188AF722BE116100B7A9C6 /* HomeModuleInitializer.swift in Sources */,
 				25188AFA22BE116100B7A9C6 /* HomeModel.swift in Sources */,
 				25F74BA922BFD7BA00DB890E /* RXKeyboard.swift in Sources */,
 				25A00C4322BC9EEA007055B9 /* ViewController.swift in Sources */,
 				25A00C4122BC9EEA007055B9 /* AppDelegate.swift in Sources */,
+				25FB64B422C6404A00AB0D47 /* VIPERHomeSceneRouter.swift in Sources */,
 				25188AFB22BE116100B7A9C6 /* HomeModelInput.swift in Sources */,
+				25FB64B522C6404A00AB0D47 /* VIPERHomeSceneViewController.swift in Sources */,
 				25BB0A4D22C246E8004668E5 /* CarouselCell.swift in Sources */,
 				25BB0A5122C24721004668E5 /* CarouselCounter.swift in Sources */,
 				25188AF822BE116100B7A9C6 /* HomeViewController.swift in Sources */,
