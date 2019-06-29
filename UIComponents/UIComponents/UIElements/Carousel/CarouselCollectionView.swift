@@ -33,7 +33,7 @@ class CarouselCollectionView: UICollectionView {
   init(withPhotos photosArray: [URL?]) {
     self.photosArray = photosArray
     super.init(frame: .zero, collectionViewLayout: self.layout)
-    self.backgroundColor = UIColor.SharedColorStyles.screenBackground
+    self.backgroundColor = .gray
     self.register(CarouselCell.self, forCellWithReuseIdentifier: CarouselCell.cellId)
     self.dataSource = self
     self.delegate = self
