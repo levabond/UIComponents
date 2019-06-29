@@ -16,7 +16,7 @@ class CarouselCell: UICollectionViewCell {
   
   private lazy var photoView: UIImageView = {
     let imageView = UIImageView()
-    imageView.backgroundColor = UIColor.SharedColorStyles.screenBackground
+    imageView.backgroundColor = .gray
     imageView.contentMode = .scaleAspectFill
     
     return imageView
@@ -24,7 +24,7 @@ class CarouselCell: UICollectionViewCell {
   
   override init(frame: CGRect) {
     super.init(frame: .zero)
-    self.backgroundColor = UIColor.SharedColorStyles.screenBackground
+    self.backgroundColor = .gray
     self.setupSubviews()
     self.setupConstraints()
   }
