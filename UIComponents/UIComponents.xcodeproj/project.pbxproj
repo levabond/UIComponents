@@ -25,6 +25,7 @@
 		25BB0A4F22C24708004668E5 /* CarouselCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BB0A4E22C24708004668E5 /* CarouselCollectionView.swift */; };
 		25BB0A5122C24721004668E5 /* CarouselCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BB0A5022C24720004668E5 /* CarouselCounter.swift */; };
 		25C49D5622C4112600D9E34F /* UISwitcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C49D5522C4112600D9E34F /* UISwitcher.swift */; };
+		25D4C35422CA3FDC0059DAA5 /* UITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D4C35322CA3FDC0059DAA5 /* UITest.swift */; };
 		25F74BA922BFD7BA00DB890E /* RXKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F74BA822BFD7BA00DB890E /* RXKeyboard.swift */; };
 		25FB64B322C6404A00AB0D47 /* VIPERHomeScenePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FB64AD22C6404A00AB0D47 /* VIPERHomeScenePresenter.swift */; };
 		25FB64B422C6404A00AB0D47 /* VIPERHomeSceneRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FB64AE22C6404A00AB0D47 /* VIPERHomeSceneRouter.swift */; };
@@ -56,6 +57,7 @@
 		25BB0A4E22C24708004668E5 /* CarouselCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselCollectionView.swift; sourceTree = "<group>"; };
 		25BB0A5022C24720004668E5 /* CarouselCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselCounter.swift; sourceTree = "<group>"; };
 		25C49D5522C4112600D9E34F /* UISwitcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISwitcher.swift; sourceTree = "<group>"; };
+		25D4C35322CA3FDC0059DAA5 /* UITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITest.swift; sourceTree = "<group>"; };
 		25F74BA822BFD7BA00DB890E /* RXKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXKeyboard.swift; sourceTree = "<group>"; };
 		25FB64AD22C6404A00AB0D47 /* VIPERHomeScenePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPERHomeScenePresenter.swift; sourceTree = "<group>"; };
 		25FB64AE22C6404A00AB0D47 /* VIPERHomeSceneRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPERHomeSceneRouter.swift; sourceTree = "<group>"; };
@@ -105,7 +107,6 @@
 				25BB0A4822C24689004668E5 /* UIElements */,
 				25BB0A4622C24546004668E5 /* Models */,
 				25F74BA722BFD7A900DB890E /* Helpers */,
-				25A00C5222BC9F05007055B9 /* HomeScene */,
 				25A00C4022BC9EEA007055B9 /* AppDelegate.swift */,
 				25A00C4222BC9EEA007055B9 /* ViewController.swift */,
 				25A00C4722BC9EEC007055B9 /* Assets.xcassets */,
@@ -165,6 +166,14 @@
 			path = Carousel;
 			sourceTree = "<group>";
 		};
+		25D4C35222CA3FC30059DAA5 /* UITest */ = {
+			isa = PBXGroup;
+			children = (
+				25D4C35322CA3FDC0059DAA5 /* UITest.swift */,
+			);
+			path = UITest;
+			sourceTree = "<group>";
+		};
 		25F74BA722BFD7A900DB890E /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -177,6 +186,8 @@
 		25FB64AA22C6400000AB0D47 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				25D4C35222CA3FC30059DAA5 /* UITest */,
+				25A00C5222BC9F05007055B9 /* HomeScene */,
 				25FB64AB22C6401100AB0D47 /* VIPER */,
 			);
 			path = Scenes;
@@ -357,6 +368,7 @@
 				25BB0A4D22C246E8004668E5 /* CarouselCell.swift in Sources */,
 				25BB0A5122C24721004668E5 /* CarouselCounter.swift in Sources */,
 				25188AF822BE116100B7A9C6 /* HomeViewController.swift in Sources */,
+				25D4C35422CA3FDC0059DAA5 /* UITest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
