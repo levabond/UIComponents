@@ -15,6 +15,7 @@
 		25188AFA22BE116100B7A9C6 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25188AF222BE116100B7A9C6 /* HomeModel.swift */; };
 		25188AFB22BE116100B7A9C6 /* HomeModelInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25188AF322BE116100B7A9C6 /* HomeModelInput.swift */; };
 		25188AFC22BE116100B7A9C6 /* HomeModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25188AF422BE116100B7A9C6 /* HomeModuleConfigurator.swift */; };
+		256377E022CB195000A0DD10 /* CalculateStringSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256377DF22CB195000A0DD10 /* CalculateStringSize.swift */; };
 		259CB0AA22C7C17200E8DFFE /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259CB0A922C7C17200E8DFFE /* Fonts.swift */; };
 		25A00C4122BC9EEA007055B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A00C4022BC9EEA007055B9 /* AppDelegate.swift */; };
 		25A00C4322BC9EEA007055B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A00C4222BC9EEA007055B9 /* ViewController.swift */; };
@@ -45,6 +46,7 @@
 		25188AF222BE116100B7A9C6 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
 		25188AF322BE116100B7A9C6 /* HomeModelInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModelInput.swift; sourceTree = "<group>"; };
 		25188AF422BE116100B7A9C6 /* HomeModuleConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModuleConfigurator.swift; sourceTree = "<group>"; };
+		256377DF22CB195000A0DD10 /* CalculateStringSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateStringSize.swift; sourceTree = "<group>"; };
 		259CB0A922C7C17200E8DFFE /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		25A00C3D22BC9EEA007055B9 /* UIComponents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIComponents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25A00C4022BC9EEA007055B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -179,6 +181,7 @@
 			children = (
 				25F74BA822BFD7BA00DB890E /* RXKeyboard.swift */,
 				259CB0A922C7C17200E8DFFE /* Fonts.swift */,
+				256377DF22CB195000A0DD10 /* CalculateStringSize.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -350,6 +353,7 @@
 				25188AF922BE116100B7A9C6 /* HomeView.swift in Sources */,
 				25FB64B622C6404A00AB0D47 /* VIPERHomeSceneProtocols.swift in Sources */,
 				25C49D5622C4112600D9E34F /* UISwitcher.swift in Sources */,
+				256377E022CB195000A0DD10 /* CalculateStringSize.swift in Sources */,
 				25BB0A4F22C24708004668E5 /* CarouselCollectionView.swift in Sources */,
 				25FB64B322C6404A00AB0D47 /* VIPERHomeScenePresenter.swift in Sources */,
 				25188AF522BE116100B7A9C6 /* HomeModelOutput.swift in Sources */,
