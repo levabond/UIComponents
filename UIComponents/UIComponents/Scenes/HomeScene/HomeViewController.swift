@@ -24,6 +24,10 @@ final class HomeViewController: UITableViewController {
     
     return cell
   }
+  
+  override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    present(UITestController(), animated: true, completion: nil)
+  }
 }
 
 // MARK: - HomeModelOutput
