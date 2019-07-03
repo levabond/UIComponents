@@ -16,6 +16,7 @@
 		25188AFB22BE116100B7A9C6 /* HomeModelInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25188AF322BE116100B7A9C6 /* HomeModelInput.swift */; };
 		25188AFC22BE116100B7A9C6 /* HomeModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25188AF422BE116100B7A9C6 /* HomeModuleConfigurator.swift */; };
 		256377E022CB195000A0DD10 /* CalculateStringSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256377DF22CB195000A0DD10 /* CalculateStringSize.swift */; };
+		2582329A22CD13AD00EEC51C /* String + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2582329922CD13AD00EEC51C /* String + Ext.swift */; };
 		259CB0AA22C7C17200E8DFFE /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259CB0A922C7C17200E8DFFE /* Fonts.swift */; };
 		25A00C4122BC9EEA007055B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A00C4022BC9EEA007055B9 /* AppDelegate.swift */; };
 		25A00C4322BC9EEA007055B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A00C4222BC9EEA007055B9 /* ViewController.swift */; };
@@ -47,6 +48,7 @@
 		25188AF322BE116100B7A9C6 /* HomeModelInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModelInput.swift; sourceTree = "<group>"; };
 		25188AF422BE116100B7A9C6 /* HomeModuleConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModuleConfigurator.swift; sourceTree = "<group>"; };
 		256377DF22CB195000A0DD10 /* CalculateStringSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateStringSize.swift; sourceTree = "<group>"; };
+		2582329922CD13AD00EEC51C /* String + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + Ext.swift"; sourceTree = "<group>"; };
 		259CB0A922C7C17200E8DFFE /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		25A00C3D22BC9EEA007055B9 /* UIComponents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIComponents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25A00C4022BC9EEA007055B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -182,6 +184,7 @@
 				25F74BA822BFD7BA00DB890E /* RXKeyboard.swift */,
 				259CB0A922C7C17200E8DFFE /* Fonts.swift */,
 				256377DF22CB195000A0DD10 /* CalculateStringSize.swift */,
+				2582329922CD13AD00EEC51C /* String + Ext.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -361,6 +364,7 @@
 				259CB0AA22C7C17200E8DFFE /* Fonts.swift in Sources */,
 				25FB64B722C6404A00AB0D47 /* VIPERHomeSceneInteractor.swift in Sources */,
 				25188AFC22BE116100B7A9C6 /* HomeModuleConfigurator.swift in Sources */,
+				2582329A22CD13AD00EEC51C /* String + Ext.swift in Sources */,
 				25188AF722BE116100B7A9C6 /* HomeModuleInitializer.swift in Sources */,
 				25188AFA22BE116100B7A9C6 /* HomeModel.swift in Sources */,
 				25F74BA922BFD7BA00DB890E /* RXKeyboard.swift in Sources */,
