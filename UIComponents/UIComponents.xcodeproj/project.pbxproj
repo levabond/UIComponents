@@ -16,6 +16,7 @@
 		25188AFB22BE116100B7A9C6 /* HomeModelInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25188AF322BE116100B7A9C6 /* HomeModelInput.swift */; };
 		25188AFC22BE116100B7A9C6 /* HomeModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25188AF422BE116100B7A9C6 /* HomeModuleConfigurator.swift */; };
 		25196B0C22CF842E006907E6 /* NumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25196B0B22CF842E006907E6 /* NumberFormatter.swift */; };
+		25196B0E22CF84A9006907E6 /* PhoneNumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25196B0D22CF84A9006907E6 /* PhoneNumberFormatter.swift */; };
 		256377E022CB195000A0DD10 /* CalculateStringSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256377DF22CB195000A0DD10 /* CalculateStringSize.swift */; };
 		2582329A22CD13AD00EEC51C /* String + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2582329922CD13AD00EEC51C /* String + Ext.swift */; };
 		259CB0AA22C7C17200E8DFFE /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259CB0A922C7C17200E8DFFE /* Fonts.swift */; };
@@ -49,6 +50,7 @@
 		25188AF322BE116100B7A9C6 /* HomeModelInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModelInput.swift; sourceTree = "<group>"; };
 		25188AF422BE116100B7A9C6 /* HomeModuleConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModuleConfigurator.swift; sourceTree = "<group>"; };
 		25196B0B22CF842E006907E6 /* NumberFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFormatter.swift; sourceTree = "<group>"; };
+		25196B0D22CF84A9006907E6 /* PhoneNumberFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberFormatter.swift; sourceTree = "<group>"; };
 		256377DF22CB195000A0DD10 /* CalculateStringSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateStringSize.swift; sourceTree = "<group>"; };
 		2582329922CD13AD00EEC51C /* String + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + Ext.swift"; sourceTree = "<group>"; };
 		259CB0A922C7C17200E8DFFE /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
@@ -188,6 +190,7 @@
 				256377DF22CB195000A0DD10 /* CalculateStringSize.swift */,
 				2582329922CD13AD00EEC51C /* String + Ext.swift */,
 				25196B0B22CF842E006907E6 /* NumberFormatter.swift */,
+				25196B0D22CF84A9006907E6 /* PhoneNumberFormatter.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -365,6 +368,7 @@
 				25188AF522BE116100B7A9C6 /* HomeModelOutput.swift in Sources */,
 				25BB0A4B22C246A0004668E5 /* Carousel.swift in Sources */,
 				259CB0AA22C7C17200E8DFFE /* Fonts.swift in Sources */,
+				25196B0E22CF84A9006907E6 /* PhoneNumberFormatter.swift in Sources */,
 				25FB64B722C6404A00AB0D47 /* VIPERHomeSceneInteractor.swift in Sources */,
 				25188AFC22BE116100B7A9C6 /* HomeModuleConfigurator.swift in Sources */,
 				2582329A22CD13AD00EEC51C /* String + Ext.swift in Sources */,
