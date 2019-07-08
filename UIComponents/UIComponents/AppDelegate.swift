@@ -16,7 +16,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
     window = UIWindow(frame: UIScreen.main.bounds)
     
-    let VC = UINavigationController(rootViewController: HomeViewController())
+    let VC = UINavigationController(rootViewController: VIPERHomeSceneViewController(nibName: "VIPERHomeSceneViewController", bundle: nil))
+    VC.title = "UIComponents"
     
     window?.rootViewController = VC
     window?.makeKeyAndVisible()

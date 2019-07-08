@@ -37,6 +37,7 @@
 		25FB64B622C6404A00AB0D47 /* VIPERHomeSceneProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FB64B022C6404A00AB0D47 /* VIPERHomeSceneProtocols.swift */; };
 		25FB64B722C6404A00AB0D47 /* VIPERHomeSceneInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FB64B122C6404A00AB0D47 /* VIPERHomeSceneInteractor.swift */; };
 		25FB64B822C6404A00AB0D47 /* VIPERHomeSceneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25FB64B222C6404A00AB0D47 /* VIPERHomeSceneViewController.xib */; };
+		25FCAC3022D372FA00672043 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FCAC2F22D372FA00672043 /* Loader.swift */; };
 		A5AD86CA89EEFB7A8C6755BE /* Pods_UIComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1E178D0F21F0D4FABE7024 /* Pods_UIComponents.framework */; };
 /* End PBXBuildFile section */
 
@@ -73,6 +74,7 @@
 		25FB64B022C6404A00AB0D47 /* VIPERHomeSceneProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPERHomeSceneProtocols.swift; sourceTree = "<group>"; };
 		25FB64B122C6404A00AB0D47 /* VIPERHomeSceneInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPERHomeSceneInteractor.swift; sourceTree = "<group>"; };
 		25FB64B222C6404A00AB0D47 /* VIPERHomeSceneViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VIPERHomeSceneViewController.xib; sourceTree = "<group>"; };
+		25FCAC2F22D372FA00672043 /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
 		5B1E178D0F21F0D4FABE7024 /* Pods_UIComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		754E1CE85E68807509B5C5E3 /* Pods-UIComponents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIComponents.release.xcconfig"; path = "Target Support Files/Pods-UIComponents/Pods-UIComponents.release.xcconfig"; sourceTree = "<group>"; };
 		EE4872CBEC6C858AEB910DDE /* Pods-UIComponents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIComponents.debug.xcconfig"; path = "Target Support Files/Pods-UIComponents/Pods-UIComponents.debug.xcconfig"; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 			children = (
 				25BB0A4922C24695004668E5 /* Carousel */,
 				25C49D5522C4112600D9E34F /* UISwitcher.swift */,
+				25FCAC2F22D372FA00672043 /* Loader.swift */,
 			);
 			path = UIElements;
 			sourceTree = "<group>";
@@ -384,6 +387,7 @@
 				25BB0A5122C24721004668E5 /* CarouselCounter.swift in Sources */,
 				25196B0C22CF842E006907E6 /* NumberFormatter.swift in Sources */,
 				25188AF822BE116100B7A9C6 /* HomeViewController.swift in Sources */,
+				25FCAC3022D372FA00672043 /* Loader.swift in Sources */,
 				25D4C35422CA3FDC0059DAA5 /* UITest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
