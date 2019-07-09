@@ -17,6 +17,9 @@
 		25188AFC22BE116100B7A9C6 /* HomeModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25188AF422BE116100B7A9C6 /* HomeModuleConfigurator.swift */; };
 		25196B0C22CF842E006907E6 /* NumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25196B0B22CF842E006907E6 /* NumberFormatter.swift */; };
 		25196B0E22CF84A9006907E6 /* PhoneNumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25196B0D22CF84A9006907E6 /* PhoneNumberFormatter.swift */; };
+		253DCE4522D5121200CC00D3 /* ESList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253DCE4422D5121200CC00D3 /* ESList.swift */; };
+		253DCE4722D5124000CC00D3 /* ESListConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253DCE4622D5124000CC00D3 /* ESListConfigurator.swift */; };
+		253DCE4922D5126300CC00D3 /* ESListSectionConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253DCE4822D5126300CC00D3 /* ESListSectionConfigurator.swift */; };
 		256377E022CB195000A0DD10 /* CalculateStringSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256377DF22CB195000A0DD10 /* CalculateStringSize.swift */; };
 		2582329A22CD13AD00EEC51C /* String + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2582329922CD13AD00EEC51C /* String + Ext.swift */; };
 		259CB0AA22C7C17200E8DFFE /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259CB0A922C7C17200E8DFFE /* Fonts.swift */; };
@@ -52,6 +55,9 @@
 		25188AF422BE116100B7A9C6 /* HomeModuleConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModuleConfigurator.swift; sourceTree = "<group>"; };
 		25196B0B22CF842E006907E6 /* NumberFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFormatter.swift; sourceTree = "<group>"; };
 		25196B0D22CF84A9006907E6 /* PhoneNumberFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberFormatter.swift; sourceTree = "<group>"; };
+		253DCE4422D5121200CC00D3 /* ESList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESList.swift; sourceTree = "<group>"; };
+		253DCE4622D5124000CC00D3 /* ESListConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESListConfigurator.swift; sourceTree = "<group>"; };
+		253DCE4822D5126300CC00D3 /* ESListSectionConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESListSectionConfigurator.swift; sourceTree = "<group>"; };
 		256377DF22CB195000A0DD10 /* CalculateStringSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateStringSize.swift; sourceTree = "<group>"; };
 		2582329922CD13AD00EEC51C /* String + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + Ext.swift"; sourceTree = "<group>"; };
 		259CB0A922C7C17200E8DFFE /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
@@ -92,6 +98,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		253DCE4322D5120700CC00D3 /* ESList */ = {
+			isa = PBXGroup;
+			children = (
+				253DCE4422D5121200CC00D3 /* ESList.swift */,
+				253DCE4622D5124000CC00D3 /* ESListConfigurator.swift */,
+				253DCE4822D5126300CC00D3 /* ESListSectionConfigurator.swift */,
+			);
+			path = ESList;
+			sourceTree = "<group>";
+		};
 		25A00C3422BC9EEA007055B9 = {
 			isa = PBXGroup;
 			children = (
@@ -159,6 +175,7 @@
 		25BB0A4822C24689004668E5 /* UIElements */ = {
 			isa = PBXGroup;
 			children = (
+				253DCE4322D5120700CC00D3 /* ESList */,
 				25BB0A4922C24695004668E5 /* Carousel */,
 				25C49D5522C4112600D9E34F /* UISwitcher.swift */,
 				25FCAC2F22D372FA00672043 /* Loader.swift */,
@@ -364,6 +381,7 @@
 				25188AF622BE116100B7A9C6 /* HomeViewControllerInput.swift in Sources */,
 				25188AF922BE116100B7A9C6 /* HomeView.swift in Sources */,
 				25FB64B622C6404A00AB0D47 /* VIPERHomeSceneProtocols.swift in Sources */,
+				253DCE4522D5121200CC00D3 /* ESList.swift in Sources */,
 				25C49D5622C4112600D9E34F /* UISwitcher.swift in Sources */,
 				256377E022CB195000A0DD10 /* CalculateStringSize.swift in Sources */,
 				25BB0A4F22C24708004668E5 /* CarouselCollectionView.swift in Sources */,
@@ -372,6 +390,7 @@
 				25BB0A4B22C246A0004668E5 /* Carousel.swift in Sources */,
 				259CB0AA22C7C17200E8DFFE /* Fonts.swift in Sources */,
 				25196B0E22CF84A9006907E6 /* PhoneNumberFormatter.swift in Sources */,
+				253DCE4722D5124000CC00D3 /* ESListConfigurator.swift in Sources */,
 				25FB64B722C6404A00AB0D47 /* VIPERHomeSceneInteractor.swift in Sources */,
 				25188AFC22BE116100B7A9C6 /* HomeModuleConfigurator.swift in Sources */,
 				2582329A22CD13AD00EEC51C /* String + Ext.swift in Sources */,
@@ -384,6 +403,7 @@
 				25188AFB22BE116100B7A9C6 /* HomeModelInput.swift in Sources */,
 				25FB64B522C6404A00AB0D47 /* VIPERHomeSceneViewController.swift in Sources */,
 				25BB0A4D22C246E8004668E5 /* CarouselCell.swift in Sources */,
+				253DCE4922D5126300CC00D3 /* ESListSectionConfigurator.swift in Sources */,
 				25BB0A5122C24721004668E5 /* CarouselCounter.swift in Sources */,
 				25196B0C22CF842E006907E6 /* NumberFormatter.swift in Sources */,
 				25188AF822BE116100B7A9C6 /* HomeViewController.swift in Sources */,
