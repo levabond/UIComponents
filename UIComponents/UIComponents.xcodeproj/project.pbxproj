@@ -22,6 +22,7 @@
 		253DCE4922D5126300CC00D3 /* ESListSectionConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253DCE4822D5126300CC00D3 /* ESListSectionConfigurator.swift */; };
 		256377E022CB195000A0DD10 /* CalculateStringSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256377DF22CB195000A0DD10 /* CalculateStringSize.swift */; };
 		2582329A22CD13AD00EEC51C /* String + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2582329922CD13AD00EEC51C /* String + Ext.swift */; };
+		25920AF522D84385008FD312 /* Snackbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25920AF422D84385008FD312 /* Snackbar.swift */; };
 		259CB0AA22C7C17200E8DFFE /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259CB0A922C7C17200E8DFFE /* Fonts.swift */; };
 		25A00C4122BC9EEA007055B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A00C4022BC9EEA007055B9 /* AppDelegate.swift */; };
 		25A00C4322BC9EEA007055B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A00C4222BC9EEA007055B9 /* ViewController.swift */; };
@@ -60,6 +61,7 @@
 		253DCE4822D5126300CC00D3 /* ESListSectionConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESListSectionConfigurator.swift; sourceTree = "<group>"; };
 		256377DF22CB195000A0DD10 /* CalculateStringSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateStringSize.swift; sourceTree = "<group>"; };
 		2582329922CD13AD00EEC51C /* String + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + Ext.swift"; sourceTree = "<group>"; };
+		25920AF422D84385008FD312 /* Snackbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snackbar.swift; sourceTree = "<group>"; };
 		259CB0A922C7C17200E8DFFE /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		25A00C3D22BC9EEA007055B9 /* UIComponents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIComponents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25A00C4022BC9EEA007055B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +108,14 @@
 				253DCE4822D5126300CC00D3 /* ESListSectionConfigurator.swift */,
 			);
 			path = ESList;
+			sourceTree = "<group>";
+		};
+		25920AF322D84373008FD312 /* Snackbar */ = {
+			isa = PBXGroup;
+			children = (
+				25920AF422D84385008FD312 /* Snackbar.swift */,
+			);
+			path = Snackbar;
 			sourceTree = "<group>";
 		};
 		25A00C3422BC9EEA007055B9 = {
@@ -175,6 +185,7 @@
 		25BB0A4822C24689004668E5 /* UIElements */ = {
 			isa = PBXGroup;
 			children = (
+				25920AF322D84373008FD312 /* Snackbar */,
 				253DCE4322D5120700CC00D3 /* ESList */,
 				25BB0A4922C24695004668E5 /* Carousel */,
 				25C49D5522C4112600D9E34F /* UISwitcher.swift */,
@@ -392,6 +403,7 @@
 				25196B0E22CF84A9006907E6 /* PhoneNumberFormatter.swift in Sources */,
 				253DCE4722D5124000CC00D3 /* ESListConfigurator.swift in Sources */,
 				25FB64B722C6404A00AB0D47 /* VIPERHomeSceneInteractor.swift in Sources */,
+				25920AF522D84385008FD312 /* Snackbar.swift in Sources */,
 				25188AFC22BE116100B7A9C6 /* HomeModuleConfigurator.swift in Sources */,
 				2582329A22CD13AD00EEC51C /* String + Ext.swift in Sources */,
 				25188AF722BE116100B7A9C6 /* HomeModuleInitializer.swift in Sources */,
