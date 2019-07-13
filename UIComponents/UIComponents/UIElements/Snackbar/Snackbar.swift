@@ -50,7 +50,6 @@ class Snackbar: UIView {
     self.backgroundColor = .white
     
     self.layer.cornerRadius = 10.0
-    self.layer.shadowColor = UIColor.SharedColorStyles.screenBackground.cgColor
     self.layer.shadowOpacity = 1
     self.layer.shadowOffset = .zero
     self.layer.shadowRadius = 5
