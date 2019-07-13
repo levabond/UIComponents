@@ -9,6 +9,7 @@ target 'UIComponents' do
  pod 'SnapKit', '~> 5'
  pod 'SDWebImage', '~> 5.0'
  pod 'PhoneNumberKit', '~> 2.6'
+ pod 'RxDataSources', '~> 4.0'
 
   # Pods for UIComponents
 
