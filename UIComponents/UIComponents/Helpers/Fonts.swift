@@ -221,3 +221,200 @@ extension UIFont {
   }
 }
 
+extension UIColor {
+  struct SharedColorStyles {
+    // MARK: Default Color
+    @nonobjc static var accentIOS: UIColor {
+      return UIColor(red: 0.0 / 255.0, green: 122.0 / 255.0, blue: 255.0 / 255.0, alpha: 1.0)
+    }
+    
+    @nonobjc static var dividerBG: UIColor {
+      return UIColor(red: 200.0 / 255.0, green: 199.0 / 255.0, blue: 204.0 / 255.0, alpha: 1.0)
+    }
+    
+    @nonobjc static var screenBG: UIColor {
+      return UIColor(red: 239.0 / 255.0, green: 239.0 / 255.0, blue: 244.0 / 255.0, alpha: 1.0)
+    }
+    
+    @nonobjc static var accent: UIColor {
+      return UIColor(red: 97.0 / 255.0, green: 189.0 / 255.0, blue: 79.0 / 255.0, alpha: 1.0)
+    }
+    
+    @nonobjc static var accent300: UIColor {
+      return UIColor(red: 0.38, green: 0.74, blue: 0.31, alpha: 1.0)
+    }
+    
+    @nonobjc static var accent500: UIColor {
+      return UIColor(red: 172.0 / 255.0, green: 213.0 / 255.0, blue: 161.0 / 255.0, alpha: 1.0)
+    }
+    
+    @nonobjc static var lightAccent: UIColor {
+      return UIColor(red: 153.0 / 255.0, green: 209.0 / 255.0, blue: 143.0 / 255.0, alpha: 1.0)
+    }
+    
+    @nonobjc static var star: UIColor {
+      return UIColor(red: 1.0, green: 204.0 / 255.0, blue: 0.0, alpha: 1.0)
+    }
+    
+    @nonobjc static var warningText: UIColor {
+      return UIColor(red: 1.0, green: 149.0 / 255.0, blue: 0.0, alpha: 1.0)
+    }
+    
+    @nonobjc static var successText: UIColor {
+      return UIColor(red: 76.0 / 255.0, green: 217.0 / 255.0, blue: 100.0 / 255.0, alpha: 1.0)
+    }
+    
+    @nonobjc static var errorText: UIColor {
+      return UIColor(red: 1.0, green: 59.0 / 255.0, blue: 48.0 / 255.0, alpha: 1.0)
+    }
+    
+    @nonobjc static var secondaryText: UIColor {
+      return UIColor(white: 102.0 / 255.0, alpha: 1.0)
+    }
+    
+    @nonobjc static var caption: UIColor {
+      return UIColor(red: 138.0 / 255.0, green: 138.0 / 255.0, blue: 143.0 / 255.0, alpha: 1.0)
+    }
+    
+    @nonobjc static var mainText: UIColor {
+      return UIColor(white: 0.0, alpha: 1.0)
+    }
+    
+    @nonobjc static var dividerLine: UIColor {
+      return UIColor(red: 200.0 / 255.0, green: 199.0 / 255.0, blue: 204.0 / 255.0, alpha: 1.0)
+    }
+    
+    @nonobjc static var screenBackground: UIColor {
+      return UIColor(red: 239.0 / 255.0, green: 239.0 / 255.0, blue: 244.0 / 255.0, alpha: 1.0)
+    }
+    
+    @nonobjc static var secondaryAccent: UIColor {
+      return UIColor(red: 235.0 / 255.0, green: 90.0 / 255.0, blue: 70.0 / 255.0, alpha: 1.0)
+    }
+    
+    @nonobjc static var tabBarIcon: UIColor {
+      return UIColor(red: 149.0 / 255.0, green: 159.0 / 255.0, blue: 173.0 / 255.0, alpha: 1.0)
+    }
+    
+    @nonobjc static var dividerColor: UIColor {
+      return UIColor(red: 188.0 / 255.0, green: 187.0 / 255.0, blue: 193.0 / 255.0, alpha: 1.0)
+    }
+    
+    // MARK: Grid Legend markers colors
+    
+    @nonobjc static var oneRoom: UIColor {
+      return UIColor(red: 90.0 / 255.0, green: 172.0 / 255.0, blue: 68.0 / 255.0, alpha: 1.0)
+    }
+    
+    @nonobjc static var twoRooms: UIColor {
+      return UIColor(red: 188.0 / 255.0, green: 96.0 / 255.0, blue: 158.0 / 255.0, alpha: 1.0)
+    }
+    
+    @nonobjc static var threeRoom: UIColor {
+      return UIColor(red: 0.0 / 255.0, green: 122.0 / 255.0, blue: 255.0 / 255.0, alpha: 1.0)
+    }
+    
+    @nonobjc static var fourPlusRooms: UIColor {
+      return UIColor(red: 195.0 / 255.0, green: 119.0 / 255.0, blue: 224.0 / 255.0, alpha: 1.0)
+    }
+    
+    @nonobjc static var fromEstateInvestor: UIColor {
+      return UIColor(red: 255.0 / 255.0, green: 149.0 / 255.0, blue: 0.0 / 255.0, alpha: 1.0)
+    }
+    
+    @nonobjc static var withDoscount: UIColor {
+      return UIColor(red: 220.0 / 255.0, green: 100.0 / 255.0, blue: 84.0 / 255.0, alpha: 1.0)
+    }
+    
+    @nonobjc static var notMatchFilter: UIColor {
+      return UIColor(red: 200.0 / 255.0, green: 199.0 / 255.0, blue: 204.0 / 255.0, alpha: 1.0)
+    }
+    
+    @nonobjc static var activityIndicatorColor: UIColor {
+      return UIColor(red: 90.0 / 255.0, green: 172.0 / 255.0, blue: 68.0 / 255.0, alpha: 1.0)
+    }
+    
+    // MARK: Social Network Colors
+    
+    @nonobjc static var inputBackground: UIColor {
+      return UIColor(red: 142.0 / 255.0, green: 142.0 / 255.0, blue: 147.0 / 255.0, alpha: 0.24)
+    }
+    
+    @nonobjc static var inputText: UIColor {
+      return UIColor(red: 142.0 / 255.0, green: 142.0 / 255.0, blue: 147.0 / 255.0, alpha: 1.0)
+    }
+    // ¯\_(ツ)_/¯
+    @nonobjc static var citySelectionBackground: UIColor {
+      return UIColor(red: 249.0 / 255.0, green: 249.0 / 255.0, blue: 249.0 / 255.0, alpha: 1.0)
+    }
+    
+    @nonobjc static var topBarBg: UIColor {
+      return UIColor(red: 249.0 / 255.0, green: 249.0 / 255.0, blue: 249.0 / 255.0, alpha: 1.0)
+    }
+    
+    @nonobjc static var facebook: UIColor {
+      return UIColor(red: 59.0 / 255.0, green: 89.0 / 255.0, blue: 152.0 / 255.0, alpha: 1.0)
+    }
+    
+    @nonobjc static var google: UIColor {
+      return UIColor(red: 220.0 / 255.0, green: 78.0 / 255.0, blue: 65.0 / 255.0, alpha: 1.0)
+    }
+    
+    @nonobjc static var vk: UIColor {
+      return UIColor(red: 77.0 / 255.0, green: 118.0 / 255.0, blue: 161.0 / 255.0, alpha: 1.0)
+    }
+    
+    @nonobjc static var odnoklassniki: UIColor {
+      return UIColor(red: 255.0 / 255.0, green: 152.0 / 255.0, blue: 0.0 / 255.0, alpha: 1.0)
+    }
+    
+    @nonobjc static var overlay: UIColor {
+      return UIColor(red: 0.0 / 255.0, green: 0.0 / 255.0, blue: 0.0 / 255.0, alpha: 0.12)
+    }
+    
+    // MARK: - View Backgroung Color
+    
+    @nonobjc static var viewLightBlue: UIColor {
+      return UIColor(red: 143.0 / 255.0, green: 223.0 / 255.0, blue: 235.0 / 255.0, alpha: 1.0)
+    }
+    
+    @nonobjc static var viewBlue: UIColor {
+      return UIColor(red: 139.0 / 255.0, green: 189.0 / 255.0, blue: 217.0 / 255.0, alpha: 1.0)
+    }
+    
+    @nonobjc static var viewLightOrange: UIColor {
+      return UIColor(red: 250.0 / 255.0, green: 216.0 / 255.0, blue: 176.0 / 255.0, alpha: 1.0)
+    }
+    
+    @nonobjc static var viewPink: UIColor {
+      return UIColor(red: 239.0 / 255.0, green: 179.0 / 255.0, blue: 171.0 / 255.0, alpha: 1.0)
+    }
+    
+    @nonobjc static var viewLightYellow: UIColor {
+      return UIColor(red: 245.0 / 255.0, green: 234.0 / 255.0, blue: 146.0 / 255.0, alpha: 1.0)
+    }
+    
+    @nonobjc static var viewLightViolet: UIColor {
+      return UIColor(red: 223.0 / 255.0, green: 192.0 / 255.0, blue: 235.0 / 255.0, alpha: 1.0)
+    }
+    
+    @nonobjc static var viewLightPink: UIColor {
+      return UIColor(red: 250.0 / 255.0, green: 198.0 / 255.0, blue: 229.0 / 255.0, alpha: 1.0)
+    }
+    
+    @nonobjc static var viewLightGreen: UIColor {
+      return UIColor(red: 179.0 / 255.0, green: 241.0 / 255.0, blue: 208.0 / 255.0, alpha: 1.0)
+    }
+    
+    @nonobjc static var viewGreen: UIColor {
+      return UIColor(red: 183.0 / 255.0, green: 221.0 / 255.0, blue: 176.0 / 255.0, alpha: 1.0)
+    }
+    
+    @nonobjc static var skeleton: UIColor {
+      return UIColor(red: 0.0 / 255.0, green: 0.0 / 255.0, blue: 0.0 / 255.0, alpha: 0.07)
+    }
+    
+  }
+}
+
+
