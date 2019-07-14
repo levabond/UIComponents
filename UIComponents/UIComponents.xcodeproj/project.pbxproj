@@ -20,6 +20,7 @@
 		253DCE4522D5121200CC00D3 /* ESList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253DCE4422D5121200CC00D3 /* ESList.swift */; };
 		253DCE4722D5124000CC00D3 /* ESListConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253DCE4622D5124000CC00D3 /* ESListConfigurator.swift */; };
 		253DCE4922D5126300CC00D3 /* ESListSectionConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253DCE4822D5126300CC00D3 /* ESListSectionConfigurator.swift */; };
+		255F932122DBA78700A5E3CB /* ButtonWithCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255F932022DBA78700A5E3CB /* ButtonWithCircle.swift */; };
 		256377E022CB195000A0DD10 /* CalculateStringSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256377DF22CB195000A0DD10 /* CalculateStringSize.swift */; };
 		2582329A22CD13AD00EEC51C /* String + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2582329922CD13AD00EEC51C /* String + Ext.swift */; };
 		25920AF522D84385008FD312 /* Snackbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25920AF422D84385008FD312 /* Snackbar.swift */; };
@@ -59,6 +60,7 @@
 		253DCE4422D5121200CC00D3 /* ESList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESList.swift; sourceTree = "<group>"; };
 		253DCE4622D5124000CC00D3 /* ESListConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESListConfigurator.swift; sourceTree = "<group>"; };
 		253DCE4822D5126300CC00D3 /* ESListSectionConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESListSectionConfigurator.swift; sourceTree = "<group>"; };
+		255F932022DBA78700A5E3CB /* ButtonWithCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonWithCircle.swift; sourceTree = "<group>"; };
 		256377DF22CB195000A0DD10 /* CalculateStringSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateStringSize.swift; sourceTree = "<group>"; };
 		2582329922CD13AD00EEC51C /* String + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + Ext.swift"; sourceTree = "<group>"; };
 		25920AF422D84385008FD312 /* Snackbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snackbar.swift; sourceTree = "<group>"; };
@@ -190,6 +192,7 @@
 				25BB0A4922C24695004668E5 /* Carousel */,
 				25C49D5522C4112600D9E34F /* UISwitcher.swift */,
 				25FCAC2F22D372FA00672043 /* Loader.swift */,
+				255F932022DBA78700A5E3CB /* ButtonWithCircle.swift */,
 			);
 			path = UIElements;
 			sourceTree = "<group>";
@@ -409,6 +412,7 @@
 				25188AF722BE116100B7A9C6 /* HomeModuleInitializer.swift in Sources */,
 				25188AFA22BE116100B7A9C6 /* HomeModel.swift in Sources */,
 				25F74BA922BFD7BA00DB890E /* RXKeyboard.swift in Sources */,
+				255F932122DBA78700A5E3CB /* ButtonWithCircle.swift in Sources */,
 				25A00C4322BC9EEA007055B9 /* ViewController.swift in Sources */,
 				25A00C4122BC9EEA007055B9 /* AppDelegate.swift in Sources */,
 				25FB64B422C6404A00AB0D47 /* VIPERHomeSceneRouter.swift in Sources */,
