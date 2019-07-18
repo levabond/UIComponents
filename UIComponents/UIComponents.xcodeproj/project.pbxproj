@@ -22,6 +22,7 @@
 		253DCE4922D5126300CC00D3 /* ESListSectionConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253DCE4822D5126300CC00D3 /* ESListSectionConfigurator.swift */; };
 		255F932122DBA78700A5E3CB /* ButtonWithCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255F932022DBA78700A5E3CB /* ButtonWithCircle.swift */; };
 		256377E022CB195000A0DD10 /* CalculateStringSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256377DF22CB195000A0DD10 /* CalculateStringSize.swift */; };
+		256D4E8F22E0F314007929A0 /* LoadingDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256D4E8E22E0F314007929A0 /* LoadingDataSource.swift */; };
 		258147B222DF779A006832CE /* SaveStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258147B122DF779A006832CE /* SaveStruct.swift */; };
 		2582329A22CD13AD00EEC51C /* String + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2582329922CD13AD00EEC51C /* String + Ext.swift */; };
 		25920AF522D84385008FD312 /* Snackbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25920AF422D84385008FD312 /* Snackbar.swift */; };
@@ -63,6 +64,7 @@
 		253DCE4822D5126300CC00D3 /* ESListSectionConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESListSectionConfigurator.swift; sourceTree = "<group>"; };
 		255F932022DBA78700A5E3CB /* ButtonWithCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonWithCircle.swift; sourceTree = "<group>"; };
 		256377DF22CB195000A0DD10 /* CalculateStringSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateStringSize.swift; sourceTree = "<group>"; };
+		256D4E8E22E0F314007929A0 /* LoadingDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingDataSource.swift; sourceTree = "<group>"; };
 		258147B122DF779A006832CE /* SaveStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveStruct.swift; sourceTree = "<group>"; };
 		2582329922CD13AD00EEC51C /* String + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + Ext.swift"; sourceTree = "<group>"; };
 		25920AF422D84385008FD312 /* Snackbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snackbar.swift; sourceTree = "<group>"; };
@@ -196,6 +198,7 @@
 				25C49D5522C4112600D9E34F /* UISwitcher.swift */,
 				25FCAC2F22D372FA00672043 /* Loader.swift */,
 				255F932022DBA78700A5E3CB /* ButtonWithCircle.swift */,
+				256D4E8E22E0F314007929A0 /* LoadingDataSource.swift */,
 			);
 			path = UIElements;
 			sourceTree = "<group>";
@@ -406,6 +409,7 @@
 				25188AF522BE116100B7A9C6 /* HomeModelOutput.swift in Sources */,
 				25BB0A4B22C246A0004668E5 /* Carousel.swift in Sources */,
 				259CB0AA22C7C17200E8DFFE /* Fonts.swift in Sources */,
+				256D4E8F22E0F314007929A0 /* LoadingDataSource.swift in Sources */,
 				25196B0E22CF84A9006907E6 /* PhoneNumberFormatter.swift in Sources */,
 				253DCE4722D5124000CC00D3 /* ESListConfigurator.swift in Sources */,
 				25FB64B722C6404A00AB0D47 /* VIPERHomeSceneInteractor.swift in Sources */,
