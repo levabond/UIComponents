@@ -23,6 +23,7 @@
 		255F932122DBA78700A5E3CB /* ButtonWithCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255F932022DBA78700A5E3CB /* ButtonWithCircle.swift */; };
 		256377E022CB195000A0DD10 /* CalculateStringSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256377DF22CB195000A0DD10 /* CalculateStringSize.swift */; };
 		256D4E8F22E0F314007929A0 /* LoadingDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256D4E8E22E0F314007929A0 /* LoadingDataSource.swift */; };
+		256D4E9122E37898007929A0 /* LoadingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256D4E9022E37898007929A0 /* LoadingCell.swift */; };
 		258147B222DF779A006832CE /* SaveStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258147B122DF779A006832CE /* SaveStruct.swift */; };
 		2582329A22CD13AD00EEC51C /* String + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2582329922CD13AD00EEC51C /* String + Ext.swift */; };
 		25920AF522D84385008FD312 /* Snackbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25920AF422D84385008FD312 /* Snackbar.swift */; };
@@ -65,6 +66,7 @@
 		255F932022DBA78700A5E3CB /* ButtonWithCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonWithCircle.swift; sourceTree = "<group>"; };
 		256377DF22CB195000A0DD10 /* CalculateStringSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateStringSize.swift; sourceTree = "<group>"; };
 		256D4E8E22E0F314007929A0 /* LoadingDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingDataSource.swift; sourceTree = "<group>"; };
+		256D4E9022E37898007929A0 /* LoadingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingCell.swift; sourceTree = "<group>"; };
 		258147B122DF779A006832CE /* SaveStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveStruct.swift; sourceTree = "<group>"; };
 		2582329922CD13AD00EEC51C /* String + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + Ext.swift"; sourceTree = "<group>"; };
 		25920AF422D84385008FD312 /* Snackbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snackbar.swift; sourceTree = "<group>"; };
@@ -210,6 +212,7 @@
 				25BB0A4C22C246E8004668E5 /* CarouselCell.swift */,
 				25BB0A4E22C24708004668E5 /* CarouselCollectionView.swift */,
 				25BB0A5022C24720004668E5 /* CarouselCounter.swift */,
+				256D4E9022E37898007929A0 /* LoadingCell.swift */,
 			);
 			path = Carousel;
 			sourceTree = "<group>";
@@ -404,6 +407,7 @@
 				253DCE4522D5121200CC00D3 /* ESList.swift in Sources */,
 				25C49D5622C4112600D9E34F /* UISwitcher.swift in Sources */,
 				256377E022CB195000A0DD10 /* CalculateStringSize.swift in Sources */,
+				256D4E9122E37898007929A0 /* LoadingCell.swift in Sources */,
 				25BB0A4F22C24708004668E5 /* CarouselCollectionView.swift in Sources */,
 				25FB64B322C6404A00AB0D47 /* VIPERHomeScenePresenter.swift in Sources */,
 				25188AF522BE116100B7A9C6 /* HomeModelOutput.swift in Sources */,
